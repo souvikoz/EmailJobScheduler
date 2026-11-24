@@ -1,0 +1,15 @@
+{
+  "name": "reachinbox-email-scheduler",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ReachInbox Full-Stack Email Job Scheduler with BullMQ, Redis, PostgreSQL, Elasticsearch, Ethereal SMTP, Google OAuth, and Slack Rate-Limit Alerts",
+  "scripts": {
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build:backend": "npm --prefix backend run build",
+    "build:frontend": "npm --prefix frontend run build",
+    "test:backend": "npm --prefix backend test",
+    "test:frontend": "npm --prefix frontend test",
+    "simulate:load": "npm --prefix backend run simulate:load"
+  }
+}
